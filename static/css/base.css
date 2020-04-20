@@ -1,0 +1,180 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background:url('../images/tonimage.png') repeat-x;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* Full height */
+  height: 50%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used */
+.img1 { background-image: url("../WAC/images/tatin.PNG");}
+.img2 { background-image: url("../WAC/images/cupcake.PNG"); }
+.img3 { background-image: url("../WAC/images/tatin.PNG"); }
+.img4 { background-image: url("../WAC/images/cupcake.PNG");}
+.img5 { background-image: url("../WAC/images/tatin.PNG");}
+.img6 { background-image: url("../WAC/images/cupcake.PNG"); }
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.petit_texte_acceuil{
+height:400px;
+background-color:white;
+font-size:36px
+}
+.bg {
+  /* The image used */
+  background-image: url("../WAC/images/layer_cake.PNG");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fit-picture {
+    width: 70%;
+    color: white;
+}
+
+.fit-picture2 {
+    width: 60%;
+    color: white;
+}
+
+p
+{
+    font-size: 150%; /* Titres de 40 pixels */
+    text-align: center;
+    white-space: nowrap;
+
+}
+
+h1,h2,p
+{
+
+font-family: lato-ultralight;
+
+}
+
+.bg2 {
+  /* The image used */
+  background-image: url("../WAC/images/macaron.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg3 {
+  /* The image used */
+  background-color: transparent;
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: top;
+  color: black;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-40%, -200%);
+   width: 80%;
+  padding: 20px;
+  text-align: top;
+
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../WAC/images/tatin.PNG");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url("../WAC/images/macaron.png");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#pleinecran {
+
+
+position: fixed;right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: auto;height: auto;z-index: -100;
+background: url("../WAC/images/cupcake.PNG");
+background-size: cover;
+
+
+ height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
