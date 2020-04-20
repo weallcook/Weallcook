@@ -25,7 +25,7 @@ SECRET_KEY = 'kba80%vq^oa(!dckky#ldczr9xky%&e7y5)k7%9@5jz8c7+ec('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['www.Weallcook.fr']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
